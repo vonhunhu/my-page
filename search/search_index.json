@@ -72,23 +72,23 @@
         },
         {
             "location": "/built-kintone-plugin/",
-            "text": "Built a kintone on Window\n\u00b6\n\n\nBuilt a kintone on Mac\n\u00b6\n\n\nBuilt a kintone on linux\n\u00b6",
+            "text": "Window\n\u00b6\n\n\nMac\n\u00b6\n\n\nLinux\n\u00b6",
             "title": "Built a kintone plugin"
         },
         {
-            "location": "/built-kintone-plugin/#built-a-kintone-on-window",
+            "location": "/built-kintone-plugin/#window",
             "text": "",
-            "title": "Built a kintone on Window"
+            "title": "Window"
         },
         {
-            "location": "/built-kintone-plugin/#built-a-kintone-on-mac",
+            "location": "/built-kintone-plugin/#mac",
             "text": "",
-            "title": "Built a kintone on Mac"
+            "title": "Mac"
         },
         {
-            "location": "/built-kintone-plugin/#built-a-kintone-on-linux",
+            "location": "/built-kintone-plugin/#linux",
             "text": "",
-            "title": "Built a kintone on linux"
+            "title": "Linux"
         },
         {
             "location": "/reference/",
