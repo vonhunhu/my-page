@@ -1,1 +1,12 @@
-site_name: My Docs
+site_name: Kodoha's page
+pages:
+    - How did they do that?: index.md
+    - GitHub: github.md
+    - Built a kintone plugin: built-kintone-plugin.md
+    - Reference: reference.md
+    - About: about.md
+theme: readthedocs
+
+markdown_extensions:
+    - toc:
+        permalink: True
