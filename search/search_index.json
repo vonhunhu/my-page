@@ -1,28 +1,23 @@
 {
     "docs": [
         {
-            "location": "/",
-            "text": "Sharing whatever I done",
-            "title": "How did they do that?"
-        },
-        {
             "location": "/github/",
-            "text": "Overview\n\u00b6\n\n\nGitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.\n\n\nGitHub essentials like repositories, branches, commits, and Pull Requests. \n\n\nPull Requests are the heart of collaboration on GitHub. When you open a pull request, you\u2019re proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch. \n\n\nThese are 2 types:\n\n\n\n\nGithub Global   \n \nhttps://github.com\n\n\nGithub Enterprise \n \ne.g https://github.dev.cybozu.co.jp\n\n\n\n\nA. Installation\n\u00b6\n\n\n\n\n\n\nInstall github\nBased on your OS (Windows, Mac OS, Linux/Unix), let \ndownload\n the suitable archive\n\n\n\n\n\n\ncreate a GitHub account \n\n ->Send request to IT support to create the new account if you're using Github Enterprise \n\n ->For personal account, you can create by yourself\n\n\n\n\n\n\nB. Operation with GibHub in Basic\n\u00b6\n\n\nTaget\n: get the latest version on local \n\n\nUsingTerminal in Mac or Command Prompt or Powershell in Windows.\n\n\n1. Initializing a Repository on local\n\u00b6\n\n\n$ cd e:/project/github-project\n$ git init\nInitialized empty Git repository in E:/project/github-project/.git/\n\n\n\nResult: creates a new subdirectory named .git that contains all of your necessary repository files\n\n\n2. Cloning an Existing Repository\n\u00b6\n\n\n\n\nClones=copy a repository into a newly created directory, creates remote-tracking branches for each branch in the cloned repository, run by command git clone \n\n\n get from git server\n$ cd e:/project/github-project\n$ git clone git@github.com:vonhunhu/github-project.git\n\n\n\n\n\n\n\nResult: all the new source has your local\n\n\n3. git checkout\n\u00b6\n\n\n\n\nSwitch branches or restore working tree files, run by command git checkout \n by open the terminal \n$ cd e:/project/github-project\n$ git chechout github-project\n\n\n\n\n\n\n\nResult: get a staging of snapshop on the specify branch\n\n\n4. git pull\n\u00b6\n\n\n\n\nfetch and replay the changes from the remote, run by command git pull \n$ cd e:/project/github-project/<branch-name>\n$ git chechout <branch-name\n$ git pull <branch-name>\n\n\n\n\n\n\n\nResult: get a lasted version from github\n\n\n5. git status\n\u00b6\n\n\n\n\nTo know the file status, run the git status command\ne.g created a myfile.md into your repository\n$ git status\nOn branch master\n\nNo commits yet\n\nUntracked files:\n(use \"git add <file>...\" to include in what will be committed)\n\nmyfile.md\n\nNothing added to commit but untracked files present (use \"git add\" to track)\n\n\n\n\n\n\n\nC. \nGibHub Operation on Web UI\n\u00b6\n\n\nD. \nGitHub Desktop Operation\n\u00b6\n\n\nE. \nGibHub Guide in Vietnamese\n\u00b6\n\n\nF. \nGibHub in advance\n\u00b6",
+            "text": "Overview\n\u00b6\n\n\nGitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.\n\n\nGitHub essentials like repositories, branches, commits, and Pull Requests. \n\n\nPull Requests are the heart of collaboration on GitHub. When you open a pull request, you\u2019re proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch. \n\n\nThese are 2 types: \n\n1. Github Global   \n\n    \nhttps://github.com\n \n\n2. Github Enterprise \n\n    \ne.g https://github.dev.cybozu.co.jp\n \n\n\nA. Installation\n\u00b6\n\n\n\n\n\n\nInstall github\nBased on your OS (Windows, Mac OS, Linux/Unix), let \ndownload\n the suitable archive\n\n\n\n\n\n\nCreate a GitHub account \n\n ->Send request to IT support to create the new account if you're using Github Enterprise \n\n ->For personal account, you can create by yourself\n\n\n\n\n\n\nB. Operation with GibHub in Basic\n\u00b6\n\n\nTaget: get the latest version on local \n\nUsingTerminal in Mac or Command Prompt or Powershell in Windows.\n\n\n1. Initializing a Repository on local\n\u00b6\n\n\n$ cd e:/project/github-project\n$ git init\nInitialized empty Git repository in E:/project/github-project/.git/\n\n\n\nResult: creates a new subdirectory named .git that contains all of your necessary repository files\n\n\n2. Cloning an Existing Repository\n\u00b6\n\n\n\n\nClones=copy a repository into a newly created directory, creates remote-tracking branches for each branch in the cloned repository, run by command git clone <url>\n\n\n<url> get from git server\n\n\n\n\n\n* Result: the new source has your local.\n\n\n    $ cd e:/project/github-project\n    $ git clone git@github.com:vonhunhu/github-project.git\n\n\n\n3. git checkout\n\u00b6\n\n\n\n\nSwitch branches or restore working tree files, run by command git checkout <branch-name> by open the terminal \n\n\nResult: get a staging of snapshop on the specify branch\n$ cd e:/project/github-project\n$ git chechout github-project\n\n\n\n\n\n\n\n4. git pull\n\u00b6\n\n\n\n\nFetch and replay the changes from the remote, run by command git pull <branch-name>\n\n\nResult: get a lasted version from github\n$ cd e:/project/github-project/<branch-name>\n$ git chechout <branch-name>\n$ git pull <branch-name>\n\n\n\n\n\n\n\n5. git status\n\u00b6\n\n\n\n\nTo know the file status, by run the git status command\ne.g created a myfile.md into your repository by command $ touch myfile.md\n$ git status\nOn branch master\n\nNo commits yet\n\nUntracked files:\n(use \"git add <file>...\" to include in what will be committed)\n\nmyfile.md\n\nNothing added to commit but untracked files present (use \"git add\" to track)\n\n\n\n\n\n\n\nC. \nGibHub Operation on Web UI\n\u00b6\n\n\nD. \nGitHub Desktop Operation\n\u00b6\n\n\nE. \nGibHub Guide in Vietnamese\n\u00b6\n\n\nF. \nGibHub in advance\n\u00b6",
             "title": "GitHub"
         },
         {
             "location": "/github/#overview",
-            "text": "GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.  GitHub essentials like repositories, branches, commits, and Pull Requests.   Pull Requests are the heart of collaboration on GitHub. When you open a pull request, you\u2019re proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch.   These are 2 types:   Github Global      https://github.com  Github Enterprise    e.g https://github.dev.cybozu.co.jp",
+            "text": "GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.  GitHub essentials like repositories, branches, commits, and Pull Requests.   Pull Requests are the heart of collaboration on GitHub. When you open a pull request, you\u2019re proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch.   These are 2 types:  \n1. Github Global    \n     https://github.com   \n2. Github Enterprise  \n     e.g https://github.dev.cybozu.co.jp",
             "title": "Overview"
         },
         {
             "location": "/github/#a-installation",
-            "text": "Install github\nBased on your OS (Windows, Mac OS, Linux/Unix), let  download  the suitable archive    create a GitHub account  \n ->Send request to IT support to create the new account if you're using Github Enterprise  \n ->For personal account, you can create by yourself",
+            "text": "Install github\nBased on your OS (Windows, Mac OS, Linux/Unix), let  download  the suitable archive    Create a GitHub account  \n ->Send request to IT support to create the new account if you're using Github Enterprise  \n ->For personal account, you can create by yourself",
             "title": "A. Installation"
         },
         {
             "location": "/github/#b-operation-with-gibhub-in-basic",
-            "text": "Taget : get the latest version on local   UsingTerminal in Mac or Command Prompt or Powershell in Windows.",
+            "text": "Taget: get the latest version on local  \nUsingTerminal in Mac or Command Prompt or Powershell in Windows.",
             "title": "B. Operation with GibHub in Basic"
         },
         {
@@ -32,22 +27,22 @@
         },
         {
             "location": "/github/#2-cloning-an-existing-repository",
-            "text": "Clones=copy a repository into a newly created directory, creates remote-tracking branches for each branch in the cloned repository, run by command git clone    get from git server $ cd e:/project/github-project\n$ git clone git@github.com:vonhunhu/github-project.git    Result: all the new source has your local",
+            "text": "Clones=copy a repository into a newly created directory, creates remote-tracking branches for each branch in the cloned repository, run by command git clone <url>  <url> get from git server   \n* Result: the new source has your local.      $ cd e:/project/github-project\n    $ git clone git@github.com:vonhunhu/github-project.git",
             "title": "2. Cloning an Existing Repository"
         },
         {
             "location": "/github/#3-git-checkout",
-            "text": "Switch branches or restore working tree files, run by command git checkout   by open the terminal  $ cd e:/project/github-project\n$ git chechout github-project    Result: get a staging of snapshop on the specify branch",
+            "text": "Switch branches or restore working tree files, run by command git checkout <branch-name> by open the terminal   Result: get a staging of snapshop on the specify branch $ cd e:/project/github-project\n$ git chechout github-project",
             "title": "3. git checkout"
         },
         {
             "location": "/github/#4-git-pull",
-            "text": "fetch and replay the changes from the remote, run by command git pull  $ cd e:/project/github-project/<branch-name>\n$ git chechout <branch-name\n$ git pull <branch-name>    Result: get a lasted version from github",
+            "text": "Fetch and replay the changes from the remote, run by command git pull <branch-name>  Result: get a lasted version from github $ cd e:/project/github-project/<branch-name>\n$ git chechout <branch-name>\n$ git pull <branch-name>",
             "title": "4. git pull"
         },
         {
             "location": "/github/#5-git-status",
-            "text": "To know the file status, run the git status command e.g created a myfile.md into your repository\n$ git status\nOn branch master\n\nNo commits yet\n\nUntracked files:\n(use \"git add <file>...\" to include in what will be committed)\n\nmyfile.md\n\nNothing added to commit but untracked files present (use \"git add\" to track)",
+            "text": "To know the file status, by run the git status command e.g created a myfile.md into your repository by command $ touch myfile.md\n$ git status\nOn branch master\n\nNo commits yet\n\nUntracked files:\n(use \"git add <file>...\" to include in what will be committed)\n\nmyfile.md\n\nNothing added to commit but untracked files present (use \"git add\" to track)",
             "title": "5. git status"
         },
         {
@@ -71,28 +66,58 @@
             "title": "F. GibHub in advance"
         },
         {
-            "location": "/built-kintone-plugin/",
-            "text": "Window\n\u00b6\n\n\nMac\n\u00b6\n\n\nLinux\n\u00b6",
-            "title": "Built a kintone plugin"
+            "location": "/challenge-tcb-2018h2/",
+            "text": "Content of challenge\n\u00b6\n\n\nInstall the necessary software/packages\n\u00b6\n\n\n[1] Install nodejs \n\nBased on your OS (Windows, Mac OS, Linux/Unix), let \ndownload\n \n\nCheck install successfully or not by run command\n\n\n    $ C:\\Users\\hoa-nguyen.CB>node -v\n    v8.11.3\n\n    $ C:\\Users\\hoa-nguyen.CB>npm -v\n    5.6.0\n\n\n\n[2] Install IDE \n\nIn this session, we will use \"Visual Studio Code\" \n \nBased on your OS (Windows, Mac OS, Linux/Unix), let \ndownload at here\n \n\nTarget:support in writing code/programming \n\n\nQuick Start\n\u00b6\n\n\n\n\nCreate a folder e.g Challenge-Automation-H21028\n\n\n\n\nCreate a new file e.g test.js\n\n\n$ cd e:\\project\n$ e:\n# mkdir Challenge-Automation-H21028\n# touch test.js\n\n\n\n\n\n\n\nOpen test.js by \"Visual Studio Code\"",
+            "title": "Challenge Automation H21028"
         },
         {
-            "location": "/built-kintone-plugin/#window",
+            "location": "/challenge-tcb-2018h2/#content-of-challenge",
+            "text": "",
+            "title": "Content of challenge"
+        },
+        {
+            "location": "/challenge-tcb-2018h2/#install-the-necessary-softwarepackages",
+            "text": "[1] Install nodejs  \nBased on your OS (Windows, Mac OS, Linux/Unix), let  download   \nCheck install successfully or not by run command      $ C:\\Users\\hoa-nguyen.CB>node -v\n    v8.11.3\n\n    $ C:\\Users\\hoa-nguyen.CB>npm -v\n    5.6.0  [2] Install IDE  \nIn this session, we will use \"Visual Studio Code\"   \nBased on your OS (Windows, Mac OS, Linux/Unix), let  download at here   \nTarget:support in writing code/programming",
+            "title": "Install the necessary software/packages"
+        },
+        {
+            "location": "/challenge-tcb-2018h2/#quick-start",
+            "text": "Create a folder e.g Challenge-Automation-H21028   Create a new file e.g test.js  $ cd e:\\project\n$ e:\n# mkdir Challenge-Automation-H21028\n# touch test.js    Open test.js by \"Visual Studio Code\"",
+            "title": "Quick Start"
+        },
+        {
+            "location": "/build-kintone-plugin/",
+            "text": "Overview\n\n\nThere are 4 steps to develop a plug-in\n1. Create files for the kintone plugin customization.\n2. Create a manifest file.\n3. Package your files using a packaging tool https://github.com/kintone/plugin-examples/blob/master/package.sh\n4. Import the plugin into your kintone environment.\n\n\n\n\nRequirement\n\u00b6\n\n\nWindow\n\n\nMac\n\n\nLinux\n\n\nOperation\n\u00b6\n\n\nWindow\n\u00b6\n\n\nMac\n\u00b6\n\n\nLinux\n\u00b6",
+            "title": "Build a kintone plugin"
+        },
+        {
+            "location": "/build-kintone-plugin/#requirement",
+            "text": "Window  Mac  Linux",
+            "title": "Requirement"
+        },
+        {
+            "location": "/build-kintone-plugin/#operation",
+            "text": "",
+            "title": "Operation"
+        },
+        {
+            "location": "/build-kintone-plugin/#window",
             "text": "",
             "title": "Window"
         },
         {
-            "location": "/built-kintone-plugin/#mac",
+            "location": "/build-kintone-plugin/#mac",
             "text": "",
             "title": "Mac"
         },
         {
-            "location": "/built-kintone-plugin/#linux",
+            "location": "/build-kintone-plugin/#linux",
             "text": "",
             "title": "Linux"
         },
         {
             "location": "/reference/",
-            "text": "GitHub\n\u00b6\n\n\nmkdocs\n\u00b6\n\n\nhttps://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet\n\n\nKinotone Customization Testing Project\n\u00b6\n\n\nChecklist Template\n\u00b6",
+            "text": "GitHub\n\u00b6\n\n\nMkdocs\n\u00b6\n\n\n\n\nDesign for mkdocs\n\n\n\n\nKinotone Customization Testing Project\n\u00b6\n\n\nChecklist Template\n\u00b6\n\n\nNodejs in basic\n\u00b6",
             "title": "Reference"
         },
         {
@@ -102,8 +127,8 @@
         },
         {
             "location": "/reference/#mkdocs",
-            "text": "https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet",
-            "title": "mkdocs"
+            "text": "Design for mkdocs",
+            "title": "Mkdocs"
         },
         {
             "location": "/reference/#kinotone-customization-testing-project",
@@ -116,9 +141,19 @@
             "title": "Checklist Template"
         },
         {
+            "location": "/reference/#nodejs-in-basic",
+            "text": "",
+            "title": "Nodejs in basic"
+        },
+        {
             "location": "/about/",
             "text": "",
             "title": "About"
+        },
+        {
+            "location": "/",
+            "text": "Sharing whatever I done",
+            "title": "How did they do that!?"
         }
     ]
 }

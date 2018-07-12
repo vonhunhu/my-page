@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-     <loc>/</loc>
-     <lastmod>2018-07-12</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
      <loc>/github/</loc>
      <lastmod>2018-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/built-kintone-plugin/</loc>
+     <loc>/challenge-tcb-2018h2/</loc>
+     <lastmod>2018-07-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>/build-kintone-plugin/</loc>
      <lastmod>2018-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -22,6 +22,11 @@
     </url>
     <url>
      <loc>/about/</loc>
+     <lastmod>2018-07-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>/</loc>
      <lastmod>2018-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
