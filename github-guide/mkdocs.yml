@@ -1,10 +1,11 @@
 site_name: Kodoha's page
 pages:
-    - How did they do that?: index.md
     - GitHub: github.md
-    - Built a kintone plugin: built-kintone-plugin.md
+    - Challenge Automation H21028: challenge-tcb-2018h2.md
+    - Build a kintone plugin: build-kintone-plugin.md
     - Reference: reference.md
     - About: about.md
+    - How did they do that!?: index.md
 theme: readthedocs
 
 markdown_extensions:
