@@ -2,23 +2,123 @@
     "docs": [
         {
             "location": "/",
-            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
-            "title": "Welcome to MkDocs"
+            "text": "Sharing whatever I do",
+            "title": "How did they do that?"
         },
         {
-            "location": "/#welcome-to-mkdocs",
-            "text": "For full documentation visit  mkdocs.org .",
-            "title": "Welcome to MkDocs"
+            "location": "/github/",
+            "text": "Overview\n\u00b6\n\n\nGitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.\n\n\nGitHub essentials like repositories, branches, commits, and Pull Requests. \n\n\nPull Requests are the heart of collaboration on GitHub. When you open a pull request, you\u2019re proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch. \n\n\nThese are 2 types:\n\n\n\n\nGithub Global   \n \nhttps://github.com\n\n\nGithub Enterprise \n \ne.g https://github.dev.cybozu.co.jp\n\n\n\n\nA. Installation\n\u00b6\n\n\n\n\n\n\nInstall github\nBased on your OS (Windows, Mac OS, Linux/Unix), let \ndownload\n the suitable archive\n\n\n\n\n\n\ncreate a GitHub account \n\n ->Send request to IT support to create the new account if you're using Github Enterprise \n\n ->For personal account, you can create by yourself\n\n\n\n\n\n\nB. Operation with GibHub in Basic\n\u00b6\n\n\nTaget\n: get the latest version on local \n\n\nUsingTerminal in Mac or Command Prompt or Powershell in Windows.\n\n\n1. Initializing a Repository on local\n\u00b6\n\n\n$ cd e:/project/github-project\n$ git init\nInitialized empty Git repository in E:/project/github-project/.git/\n\n\n\nResult: creates a new subdirectory named .git that contains all of your necessary repository files\n\n\n2. Cloning an Existing Repository\n\u00b6\n\n\n\n\nClones=copy a repository into a newly created directory, creates remote-tracking branches for each branch in the cloned repository, run by command git clone \n\n\n get from git server\n$ cd e:/project/github-project\n$ git clone git@github.com:vonhunhu/github-project.git\n\n\n\n\n\n\n\nResult: all the new source has your local\n\n\n3. git checkout\n\u00b6\n\n\n\n\nSwitch branches or restore working tree files, run by command git checkout \n by open the terminal \n$ cd e:/project/github-project\n$ git chechout github-project\n\n\n\n\n\n\n\nResult: get a staging of snapshop on the specify branch\n\n\n4. git pull\n\u00b6\n\n\n\n\nfetch and replay the changes from the remote, run by command git pull \n$ cd e:/project/github-project/<branch-name>\n$ git chechout <branch-name\n$ git pull <branch-name>\n\n\n\n\n\n\n\nResult: get a lasted version from github\n\n\n5. git status\n\u00b6\n\n\n\n\nTo know the file status, run the git status command\ne.g created a myfile.md into your repository\n$ git status\nOn branch master\n\nNo commits yet\n\nUntracked files:\n(use \"git add <file>...\" to include in what will be committed)\n\nmyfile.md\n\nNothing added to commit but untracked files present (use \"git add\" to track)\n\n\n\n\n\n\n\nC. \nGibHub Operation on Web UI\n\u00b6\n\n\nD. \nGitHub Desktop Operation\n\u00b6\n\n\nE. \nGibHub Guide in Vietnamese\n\u00b6\n\n\nF. \nGibHub in advance\n\u00b6",
+            "title": "GitHub"
         },
         {
-            "location": "/#commands",
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.",
-            "title": "Commands"
+            "location": "/github/#overview",
+            "text": "GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.  GitHub essentials like repositories, branches, commits, and Pull Requests.   Pull Requests are the heart of collaboration on GitHub. When you open a pull request, you\u2019re proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch.   These are 2 types:   Github Global      https://github.com  Github Enterprise    e.g https://github.dev.cybozu.co.jp",
+            "title": "Overview"
         },
         {
-            "location": "/#project-layout",
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
-            "title": "Project layout"
+            "location": "/github/#a-installation",
+            "text": "Install github\nBased on your OS (Windows, Mac OS, Linux/Unix), let  download  the suitable archive    create a GitHub account  \n ->Send request to IT support to create the new account if you're using Github Enterprise  \n ->For personal account, you can create by yourself",
+            "title": "A. Installation"
+        },
+        {
+            "location": "/github/#b-operation-with-gibhub-in-basic",
+            "text": "Taget : get the latest version on local   UsingTerminal in Mac or Command Prompt or Powershell in Windows.",
+            "title": "B. Operation with GibHub in Basic"
+        },
+        {
+            "location": "/github/#1-initializing-a-repository-on-local",
+            "text": "$ cd e:/project/github-project\n$ git init\nInitialized empty Git repository in E:/project/github-project/.git/  Result: creates a new subdirectory named .git that contains all of your necessary repository files",
+            "title": "1. Initializing a Repository on local"
+        },
+        {
+            "location": "/github/#2-cloning-an-existing-repository",
+            "text": "Clones=copy a repository into a newly created directory, creates remote-tracking branches for each branch in the cloned repository, run by command git clone    get from git server $ cd e:/project/github-project\n$ git clone git@github.com:vonhunhu/github-project.git    Result: all the new source has your local",
+            "title": "2. Cloning an Existing Repository"
+        },
+        {
+            "location": "/github/#3-git-checkout",
+            "text": "Switch branches or restore working tree files, run by command git checkout   by open the terminal  $ cd e:/project/github-project\n$ git chechout github-project    Result: get a staging of snapshop on the specify branch",
+            "title": "3. git checkout"
+        },
+        {
+            "location": "/github/#4-git-pull",
+            "text": "fetch and replay the changes from the remote, run by command git pull  $ cd e:/project/github-project/<branch-name>\n$ git chechout <branch-name\n$ git pull <branch-name>    Result: get a lasted version from github",
+            "title": "4. git pull"
+        },
+        {
+            "location": "/github/#5-git-status",
+            "text": "To know the file status, run the git status command e.g created a myfile.md into your repository\n$ git status\nOn branch master\n\nNo commits yet\n\nUntracked files:\n(use \"git add <file>...\" to include in what will be committed)\n\nmyfile.md\n\nNothing added to commit but untracked files present (use \"git add\" to track)",
+            "title": "5. git status"
+        },
+        {
+            "location": "/github/#c-gibhub-operation-on-web-ui",
+            "text": "",
+            "title": "C. GibHub Operation on Web UI"
+        },
+        {
+            "location": "/github/#d-github-desktop-operation",
+            "text": "",
+            "title": "D. GitHub Desktop Operation"
+        },
+        {
+            "location": "/github/#e-gibhub-guide-in-vietnamese",
+            "text": "",
+            "title": "E. GibHub Guide in Vietnamese"
+        },
+        {
+            "location": "/github/#f-gibhub-in-advance",
+            "text": "",
+            "title": "F. GibHub in advance"
+        },
+        {
+            "location": "/built-kintone-plugin/",
+            "text": "Built a kintone on Windown\n\u00b6\n\n\nBuilt a kintone on Mac\n\u00b6\n\n\nBuilt a kintone on linux\n\u00b6",
+            "title": "Built a kintone plugin"
+        },
+        {
+            "location": "/built-kintone-plugin/#built-a-kintone-on-windown",
+            "text": "",
+            "title": "Built a kintone on Windown"
+        },
+        {
+            "location": "/built-kintone-plugin/#built-a-kintone-on-mac",
+            "text": "",
+            "title": "Built a kintone on Mac"
+        },
+        {
+            "location": "/built-kintone-plugin/#built-a-kintone-on-linux",
+            "text": "",
+            "title": "Built a kintone on linux"
+        },
+        {
+            "location": "/reference/",
+            "text": "GitHub\n\u00b6\n\n\nmkdocs\n\u00b6\n\n\nhttps://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet\n\n\nKinotone Customization Testing Project\n\u00b6\n\n\nChecklist Template\n\u00b6",
+            "title": "Reference"
+        },
+        {
+            "location": "/reference/#github",
+            "text": "",
+            "title": "GitHub"
+        },
+        {
+            "location": "/reference/#mkdocs",
+            "text": "https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet",
+            "title": "mkdocs"
+        },
+        {
+            "location": "/reference/#kinotone-customization-testing-project",
+            "text": "",
+            "title": "Kinotone Customization Testing Project"
+        },
+        {
+            "location": "/reference/#checklist-template",
+            "text": "",
+            "title": "Checklist Template"
+        },
+        {
+            "location": "/about/",
+            "text": "",
+            "title": "About"
         }
     ]
 }
