@@ -72,13 +72,17 @@
         
             <li><a class="toctree-l3" href="#5-git-status">5. git status</a></li>
         
+            <li><a class="toctree-l3" href="#6-git-add">6. git add</a></li>
+        
+            <li><a class="toctree-l3" href="#7-git-commit">7. git commit</a></li>
+        
+            <li><a class="toctree-l3" href="#7-git-push">7. git push</a></li>
+        
             <li><a class="toctree-l3" href="#c-gibhub-operation-on-web-ui">C. GibHub Operation on Web UI</a></li>
         
             <li><a class="toctree-l3" href="#d-github-desktop-operation">D. GitHub Desktop Operation</a></li>
         
-            <li><a class="toctree-l3" href="#e-gibhub-guide-in-vietnamese">E. GibHub Guide in Vietnamese</a></li>
-        
-            <li><a class="toctree-l3" href="#f-gibhub-in-advance">F. GibHub in advance</a></li>
+            <li><a class="toctree-l3" href="#e-gibhub-in-advance">E. GibHub in advance</a></li>
         
         </ul>
     
@@ -144,14 +148,26 @@
             <div class="section">
               
                 <h1 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h1>
+<ul>
+<li>
 <p>GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.</p>
+</li>
+<li>
 <p>GitHub essentials like repositories, branches, commits, and Pull Requests. </p>
+</li>
+<li>
 <p>Pull Requests are the heart of collaboration on GitHub. When you open a pull request, you’re proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch. </p>
-<p>These are 2 types: </br>
-1. Github Global   </br>
-    <strong>https://github.com</strong> </br>
-2. Github Enterprise </br>
-    <strong>e.g https://github.dev.cybozu.co.jp</strong> </br></p>
+</li>
+<li>
+<p>These are 2 types: </br></p>
+<ol>
+<li>Github Global   </br>
+<strong>https://github.com</strong> </br></li>
+<li>Github Enterprise </br>
+<strong>e.g https://github.dev.cybozu.co.jp</strong> </br></li>
+</ol>
+</li>
+</ul>
 <h1 id="a-installation">A. Installation<a class="headerlink" href="#a-installation" title="Permanent link">&para;</a></h1>
 <ol>
 <li>
@@ -172,37 +188,52 @@ UsingTerminal in Mac or Command Prompt or Powershell in Windows.</p>
 $ git init
 Initialized empty Git repository in E:/project/github-project/.git/
 </code></pre>
-<p>Result: creates a new subdirectory named .git that contains all of your necessary repository files</p>
+<ul>
+<li>Result: creates a new subdirectory named .git that contains all of your necessary repository files</li>
+</ul>
 <h2 id="2-cloning-an-existing-repository">2. Cloning an Existing Repository<a class="headerlink" href="#2-cloning-an-existing-repository" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Clones=copy a repository into a newly created directory, creates remote-tracking branches for each branch in the cloned repository, run by command git clone &lt;url></li>
 <li>&lt;url> get from git server</li>
 </ul>
-<p><img alt="Screenshot" src="../img/github/cloneurl.jpg" />
-* Result: the new source has your local.</p>
+<p><img alt="Screenshot" src="../img/github/cloneurl.jpg" /></p>
 <pre><code>    $ cd e:/project/github-project
     $ git clone git@github.com:vonhunhu/github-project.git
 </code></pre>
+<ul>
+<li>Result: the new source has your local.</li>
+</ul>
 <h2 id="3-git-checkout">3. git checkout<a class="headerlink" href="#3-git-checkout" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Switch branches or restore working tree files, run by command git checkout &lt;branch-name> by open the terminal </li>
-<li>Result: get a staging of snapshop on the specify branch<pre><code>$ cd e:/project/github-project
+<li>
+<p>Switch branches or restore working tree files, run by command git checkout &lt;branch-name> </p>
+<pre><code>$ cd e:/project/github-project
 $ git chechout github-project
 </code></pre>
+</li>
+<li>
+<p>Result: get a staging of snapshop on the specify branch</p>
 </li>
 </ul>
 <h2 id="4-git-pull">4. git pull<a class="headerlink" href="#4-git-pull" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Fetch and replay the changes from the remote, run by command git pull &lt;branch-name></li>
-<li>Result: get a lasted version from github<pre><code>$ cd e:/project/github-project/&lt;branch-name&gt;
+<li>
+<p>Fetch and replay the changes from the remote, run by command git pull &lt;branch-name></p>
+<pre><code>$ cd e:/project/github-project/&lt;branch-name&gt;
 $ git chechout &lt;branch-name&gt;
 $ git pull &lt;branch-name&gt;
 </code></pre>
 </li>
+<li>
+<p>Result: get a lasted version from github</p>
+</li>
 </ul>
 <h2 id="5-git-status">5. git status<a class="headerlink" href="#5-git-status" title="Permanent link">&para;</a></h2>
 <ul>
-<li>To know the file status, by run the git status command<pre><code>e.g created a myfile.md into your repository by command $ touch myfile.md
+<li>To know the file status, by run the git status command <branch-name\>
+</br>
+e.g created a myfile.md into your repository by command touch &lt;filename><pre><code>$ touch myfile.md
+
 $ git status
 On branch master
 
@@ -217,10 +248,19 @@ Nothing added to commit but untracked files present (use "git add" to track)
 </code></pre>
 </li>
 </ul>
+<h2 id="6-git-add">6. git add<a class="headerlink" href="#6-git-add" title="Permanent link">&para;</a></h2>
+<pre><code>    $ git add .
+</code></pre>
+<h2 id="7-git-commit">7. git commit<a class="headerlink" href="#7-git-commit" title="Permanent link">&para;</a></h2>
+<p>git commit -m  &lt;your message></p>
+<pre><code>    $ git commit -m 'update github-guide'
+</code></pre>
+<h2 id="7-git-push">7. git push<a class="headerlink" href="#7-git-push" title="Permanent link">&para;</a></h2>
+<pre><code>    $ git push
+</code></pre>
 <h2 id="c-gibhub-operation-on-web-ui">C. <a href="https://guides.github.com/activities/hello-world/">GibHub Operation on Web UI</a><a class="headerlink" href="#c-gibhub-operation-on-web-ui" title="Permanent link">&para;</a></h2>
 <h2 id="d-github-desktop-operation">D. <a href="https://help.github.com/desktop-classic/guides/getting-started/">GitHub Desktop Operation</a><a class="headerlink" href="#d-github-desktop-operation" title="Permanent link">&para;</a></h2>
-<h2 id="e-gibhub-guide-in-vietnamese">E. <a href="http://rogerdudler.github.io/git-guide/index.vi.html">GibHub Guide in Vietnamese</a><a class="headerlink" href="#e-gibhub-guide-in-vietnamese" title="Permanent link">&para;</a></h2>
-<h2 id="f-gibhub-in-advance">F. <a href="https://git-scm.com/book/en/v2">GibHub in advance</a><a class="headerlink" href="#f-gibhub-in-advance" title="Permanent link">&para;</a></h2>
+<h2 id="e-gibhub-in-advance">E. <a href="https://git-scm.com/book/en/v2">GibHub in advance</a><a class="headerlink" href="#e-gibhub-in-advance" title="Permanent link">&para;</a></h2>
               
             </div>
           </div>
