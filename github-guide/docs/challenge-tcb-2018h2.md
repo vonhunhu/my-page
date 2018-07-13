@@ -1,4 +1,6 @@
 # [Content of challenge](https://github.dev.cybozu.co.jp/pages/t000602/qavn-challenge-2nd-2018/)
+
+//section 1:
 # Install the necessary software/packages
 
 [1] Install nodejs <br>
@@ -29,3 +31,33 @@ Target:support in writing code/programming </br>
 
 3. Open test.js by "Visual Studio Code" </br>
 ![Screenshot](img/nodejs/VisualStudioCode.jpg)
+
+//section 2
+
+# Nodejs
+
+## Pratice with hello-world.js
+
+1. Open "Visual Studio Code"
+2. Open File > New Folder (e.g folder name is "session1")
+3. Cliking no "New Folder" then [Open File > New File]
+4. Save as with name "hello-world.js"
+
+```
+    console.log("Hello World!");
+```
+![Screenshot](img/nodejs/un-save.jpg)
+
+5. Open File > Save 
+Using hot key Ctrl+S for save
+
+6. Open View > Intergated Terminal
+7. Run js file by the node <file-name\> on the intergated terminal
+
+![Screenshot](img/nodejs/run.jpg)
+
+    Hint
+        Set auto save file on Visual Studio Code
+        File > Auto Save
+
+

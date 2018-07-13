@@ -1,15 +1,15 @@
 # Overview
 
-GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+* GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-GitHub essentials like repositories, branches, commits, and Pull Requests. 
+* GitHub essentials like repositories, branches, commits, and Pull Requests. 
 
-Pull Requests are the heart of collaboration on GitHub. When you open a pull request, you’re proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch. 
+* Pull Requests are the heart of collaboration on GitHub. When you open a pull request, you’re proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch. 
 
-These are 2 types: </br>
-1. Github Global   </br>
+* These are 2 types: </br>
+    1. Github Global   </br>
     **https://github.com** </br>
-2. Github Enterprise </br>
+    2. Github Enterprise </br>
     **e.g https://github.dev.cybozu.co.jp** </br>
 
 
@@ -34,7 +34,7 @@ UsingTerminal in Mac or Command Prompt or Powershell in Windows.
     $ git init
     Initialized empty Git repository in E:/project/github-project/.git/
 
-Result: creates a new subdirectory named .git that contains all of your necessary repository files
+* Result: creates a new subdirectory named .git that contains all of your necessary repository files
 
 
 ## 2. Cloning an Existing Repository
@@ -42,35 +42,36 @@ Result: creates a new subdirectory named .git that contains all of your necessar
 * <url\> get from git server
 
 ![Screenshot](img/github/cloneurl.jpg)
-* Result: the new source has your local.
-
 
         $ cd e:/project/github-project
         $ git clone git@github.com:vonhunhu/github-project.git
 
-## 3. git checkout
-* Switch branches or restore working tree files, run by command git checkout <branch-name\> by open the terminal 
-* Result: get a staging of snapshop on the specify branch
+* Result: the new source has your local.
 
+## 3. git checkout
+* Switch branches or restore working tree files, run by command git checkout <branch-name\> 
 
         $ cd e:/project/github-project
         $ git chechout github-project
 
+* Result: get a staging of snapshop on the specify branch
 
 ## 4. git pull
 * Fetch and replay the changes from the remote, run by command git pull <branch-name\>
-* Result: get a lasted version from github
-
 
         $ cd e:/project/github-project/<branch-name>
         $ git chechout <branch-name>
         $ git pull <branch-name>
 
+* Result: get a lasted version from github
 
 ## 5. git status
-* To know the file status, by run the git status command
+* To know the file status, by run the git status command <branch-name\>
+</br>
+e.g created a myfile.md into your repository by command touch <filename\>
 
-        e.g created a myfile.md into your repository by command $ touch myfile.md
+        $ touch myfile.md
+
         $ git status
         On branch master
 
@@ -83,11 +84,20 @@ Result: creates a new subdirectory named .git that contains all of your necessar
 
         Nothing added to commit but untracked files present (use "git add" to track)
 
+## 6. git add
+        $ git add .
+
+## 7. git commit
+git commit -m  <your message\>
+
+        $ git commit -m 'update github-guide' 
+
+## 7. git push
+
+        $ git push
 
 ## C. [GibHub Operation on Web UI](https://guides.github.com/activities/hello-world/)
 
 ## D. [GitHub Desktop Operation](https://help.github.com/desktop-classic/guides/getting-started/)
 
-## E. [GibHub Guide in Vietnamese](http://rogerdudler.github.io/git-guide/index.vi.html)
-
-## F. [GibHub in advance](https://git-scm.com/book/en/v2)
+## E. [GibHub in advance](https://git-scm.com/book/en/v2)
