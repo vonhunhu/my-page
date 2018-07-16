@@ -78,6 +78,8 @@
         
             <li><a class="toctree-l3" href="#lesson-1-pratice-with-a-hello-worldjs">Lesson 1: Pratice with a hello-world.js</a></li>
         
+            <li><a class="toctree-l3" href="#lesson2-declare-usage-variable-bien-constant-hang-so">Lesson2: Declare &amp; Usage Variable (biến), Constant (hằng số)</a></li>
+        
         </ul>
     
 
@@ -196,6 +198,51 @@ Using hot key Ctrl+S for save</p>
     Set auto save file on Visual Studio Code
     File &gt; Auto Save
 </code></pre>
+<h2 id="lesson2-declare-usage-variable-bien-constant-hang-so">Lesson2: Declare &amp; Usage Variable (biến), Constant (hằng số)<a class="headerlink" href="#lesson2-declare-usage-variable-bien-constant-hang-so" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Biến (Variable)</strong> là vùng nhớ dùng để lưu trữ các giá trị của chương trình và có thể thay đổi giá trị; Tên biến là duy nhất trong 1 chương trình</li>
+<li><strong>Constant (hằng số)</strong> là một giá trị không thể bị thay đổi bởi chương trình trong quá trình thực thi thông thường (a constant is a value that cannot be altered by the program during normal execution)</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Tables</th>
+<th align="left">ES5</th>
+<th align="left">ES6</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Declare Variable</td>
+<td align="left">var <br> e.g myVar='Hello';</td>
+<td align="left">let <br> e.g myVar='Hello';</td>
+</tr>
+<tr>
+<td>Declare Constant</td>
+<td align="left">const <br> e.g const myConst ='unchangeable';</td>
+<td align="left">const <br> e.g const myConst ='unchangeable';</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pratice">Pratice<a class="headerlink" href="#pratice" title="Permanent link">&para;</a></h3>
+<ol>
+<li>create a VariableConstant.js<pre><code>// Declare Variable
+let myName;   //way1
+let myName = 'Teo';  //way2
+console.log(myName);
+
+//Declare Constant
+const PI = 3.14;
+console.log(PI);
+</code></pre>
+</li>
+</ol>
+<p>Chú ý khi đặt tên biến và hằng số: </br>
+1. Tên biến phải có ý nghĩa </br>
+2. Chữ đầu của tên biến thường là chữ thường vd: myName, myCount </br>
+   -&gt; Theo format <a href="https://en.wikipedia.org/wiki/Camel_case">Camel Care</a> </br>
+3. Hằng số thường khai báo với chữ hoa vd: MYNAME, PI, MY_NAME </br>
+4. Tên biến, hằng số phải không trùng với key work của chương trình </br></p>
               
             </div>
           </div>
