@@ -77,33 +77,43 @@
         },
         {
             "location": "/challenge-tcb-2018h2/",
-            "text": "Content of challenge\n\u00b6\n\n\n//section 1:\n\n\nInstall the necessary software/packages\n\u00b6\n\n\n[1] Install nodejs \n\nBased on your OS (Windows, Mac OS, Linux/Unix), let \ndownload\n \n\nCheck install successfully or not by run command\n\n\n    $ C:\\Users\\hoa-nguyen.CB>node -v\n    v8.11.3\n\n    $ C:\\Users\\hoa-nguyen.CB>npm -v\n    5.6.0\n\n\n\n[2] Install IDE \n\nIn this session, we will use \"Visual Studio Code\" \n \nBased on your OS (Windows, Mac OS, Linux/Unix), let \ndownload at here\n \n\nTarget:support in writing code/programming \n\n\nQuick Start\n\u00b6\n\n\n\n\nCreate a folder e.g Challenge-Automation-H21028\n\n\n\n\nCreate a new file e.g test.js\n\n\n$ cd e:\\project\n$ e:\n# mkdir Challenge-Automation-H21028\n# touch test.js\n\n\n\n\n\n\n\nOpen test.js by \"Visual Studio Code\" \n\n\n\n\n\n\n\n\n//section 2\n\n\nNodejs\n\u00b6\n\n\nPratice with hello-world.js\n\u00b6\n\n\n\n\nOpen \"Visual Studio Code\"\n\n\nOpen File > New Folder (e.g folder name is \"session1\")\n\n\nCliking no \"New Folder\" then [Open File > New File]\n\n\nSave as with name \"hello-world.js\"\n\n\n\n\n    console.log(\"Hello World!\");\n\n\n\n\n\n\n\n\n\n\nOpen File > Save \nUsing hot key Ctrl+S for save\n\n\n\n\n\n\nOpen View > Intergated Terminal\n\n\n\n\nRun js file by the node <file-name> on the intergated terminal\n\n\n\n\n\n\nHint\n    Set auto save file on Visual Studio Code\n    File > Auto Save",
+            "text": "Content of challenge\n\u00b6\n\n\nTCB Learning Page\n\u00b6\n\n\nhttp://tcb-learning.dev.cybozu.xyz\n\n\nSession1\n\u00b6\n\n\nEnvironment Setup\n\u00b6\n\n\n[1] Install nodejs \n\nBased on your OS (Windows, Mac OS, Linux/Unix), let \ndownload\n \n\nCheck install successfully or not by run command\n\n\n    $ C:\\Users\\hoa-nguyen.CB>node -v\n    v8.11.3\n\n    $ C:\\Users\\hoa-nguyen.CB>npm -v\n    5.6.0\n\n\n\n[2] Install IDE \n\nIn this session, we will use \"Visual Studio Code\" \n \nBased on your OS (Windows, Mac OS, Linux/Unix), let \ndownload at here\n \n\nTarget:support in writing code/programming \n\n\nQuick Start with IDE\n\u00b6\n\n\n\n\nCreate a folder e.g Challenge-Automation-H21028\n\n\n\n\nCreate a new file e.g test.js\n\n\n$ cd e:\\project\n$ e:\n# mkdir Challenge-Automation-H21028\n# touch test.js\n\n\n\n\n\n\n\nOpen test.js by \"Visual Studio Code\" \n\n\n\n\n\n\n\n\nSession2: Nodejs in Basic\n\u00b6\n\n\nLesson1: Pratice with a hello-world.js\n\u00b6\n\n\n\n\nOpen \"Visual Studio Code\"\n\n\nOpen File > New Folder (e.g folder name is \"session1\")\n\n\nCliking no \"New Folder\" then [Open File > New File]\n\n\nSave as with name \"hello-world.js\"\n\n\n\n\n    //print out \"Hello World!\" the console.\n    console.log(\"Hello World!\");\n\n\n\n\n\n\n\n\n\n\nOpen File > Save \n\nUsing hot key Ctrl+S for save\n\n\n\n\n\n\nOpen View > Intergated Terminal\n\n\n\n\nRun js file by typing node <file-name> on the intergated terminal\n\n\n\n\n\n\nHint\n    Set auto save file on Visual Studio Code\n    File > Auto Save",
             "title": "Challenge Automation H21028"
         },
         {
             "location": "/challenge-tcb-2018h2/#content-of-challenge",
-            "text": "//section 1:",
+            "text": "",
             "title": "Content of challenge"
         },
         {
-            "location": "/challenge-tcb-2018h2/#install-the-necessary-softwarepackages",
-            "text": "[1] Install nodejs  \nBased on your OS (Windows, Mac OS, Linux/Unix), let  download   \nCheck install successfully or not by run command      $ C:\\Users\\hoa-nguyen.CB>node -v\n    v8.11.3\n\n    $ C:\\Users\\hoa-nguyen.CB>npm -v\n    5.6.0  [2] Install IDE  \nIn this session, we will use \"Visual Studio Code\"   \nBased on your OS (Windows, Mac OS, Linux/Unix), let  download at here   \nTarget:support in writing code/programming",
-            "title": "Install the necessary software/packages"
+            "location": "/challenge-tcb-2018h2/#tcb-learning-page",
+            "text": "http://tcb-learning.dev.cybozu.xyz",
+            "title": "TCB Learning Page"
         },
         {
-            "location": "/challenge-tcb-2018h2/#quick-start",
-            "text": "Create a folder e.g Challenge-Automation-H21028   Create a new file e.g test.js  $ cd e:\\project\n$ e:\n# mkdir Challenge-Automation-H21028\n# touch test.js    Open test.js by \"Visual Studio Code\"      //section 2",
-            "title": "Quick Start"
-        },
-        {
-            "location": "/challenge-tcb-2018h2/#nodejs",
+            "location": "/challenge-tcb-2018h2/#session1",
             "text": "",
-            "title": "Nodejs"
+            "title": "Session1"
         },
         {
-            "location": "/challenge-tcb-2018h2/#pratice-with-hello-worldjs",
-            "text": "Open \"Visual Studio Code\"  Open File > New Folder (e.g folder name is \"session1\")  Cliking no \"New Folder\" then [Open File > New File]  Save as with name \"hello-world.js\"       console.log(\"Hello World!\");     Open File > Save \nUsing hot key Ctrl+S for save    Open View > Intergated Terminal   Run js file by the node <file-name> on the intergated terminal    Hint\n    Set auto save file on Visual Studio Code\n    File > Auto Save",
-            "title": "Pratice with hello-world.js"
+            "location": "/challenge-tcb-2018h2/#environment-setup",
+            "text": "[1] Install nodejs  \nBased on your OS (Windows, Mac OS, Linux/Unix), let  download   \nCheck install successfully or not by run command      $ C:\\Users\\hoa-nguyen.CB>node -v\n    v8.11.3\n\n    $ C:\\Users\\hoa-nguyen.CB>npm -v\n    5.6.0  [2] Install IDE  \nIn this session, we will use \"Visual Studio Code\"   \nBased on your OS (Windows, Mac OS, Linux/Unix), let  download at here   \nTarget:support in writing code/programming",
+            "title": "Environment Setup"
+        },
+        {
+            "location": "/challenge-tcb-2018h2/#quick-start-with-ide",
+            "text": "Create a folder e.g Challenge-Automation-H21028   Create a new file e.g test.js  $ cd e:\\project\n$ e:\n# mkdir Challenge-Automation-H21028\n# touch test.js    Open test.js by \"Visual Studio Code\"",
+            "title": "Quick Start with IDE"
+        },
+        {
+            "location": "/challenge-tcb-2018h2/#session2-nodejs-in-basic",
+            "text": "",
+            "title": "Session2: Nodejs in Basic"
+        },
+        {
+            "location": "/challenge-tcb-2018h2/#lesson1-pratice-with-a-hello-worldjs",
+            "text": "Open \"Visual Studio Code\"  Open File > New Folder (e.g folder name is \"session1\")  Cliking no \"New Folder\" then [Open File > New File]  Save as with name \"hello-world.js\"       //print out \"Hello World!\" the console.\n    console.log(\"Hello World!\");     Open File > Save  \nUsing hot key Ctrl+S for save    Open View > Intergated Terminal   Run js file by typing node <file-name> on the intergated terminal    Hint\n    Set auto save file on Visual Studio Code\n    File > Auto Save",
+            "title": "Lesson1: Pratice with a hello-world.js"
         },
         {
             "location": "/build-kintone-plugin/",
