@@ -80,6 +80,8 @@
         
             <li><a class="toctree-l3" href="#lesson2-declare-usage-variable-constant">Lesson2: Declare, Usage Variable &amp; Constant</a></li>
         
+            <li><a class="toctree-l3" href="#lesson3-string">Lesson3: String</a></li>
+        
         </ul>
     
 
@@ -104,6 +106,11 @@
             <li class="toctree-l1">
 		
     <a class="" href="..">How did they do that!?</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../leadingfromtheinsideout/">LEADING FROM THE INSIDE OUT</a>
 	    </li>
           
         </ul>
@@ -206,19 +213,19 @@ Using hot key Ctrl+S for save</p>
 <table>
 <thead>
 <tr>
-<th>Tables</th>
+<th>Declare</th>
 <th align="left">ES5</th>
 <th align="left">ES6</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Declare Variable</td>
+<td>Variable</td>
 <td align="left">var <br> e.g  var myVar='Hello';</td>
 <td align="left">let <br> e.g let myVar='Hello';</td>
 </tr>
 <tr>
-<td>Declare Constant</td>
+<td>Constant</td>
 <td align="left">const <br> e.g const PHONENUM ='0903642155';</td>
 <td align="left">const <br> e.g const MY-TEXT  ='unchangeable';</td>
 </tr>
@@ -245,6 +252,118 @@ e.g. myName, myCount -&gt; follow-up  <a href="https://en.wikipedia.org/wiki/Ca
 3. Constant name is declarated with upper case </br> 
 e.g. MYNAME, PI, MY_NAME </br>
 4. The variable name, the constant constant are not duplicated with key-word of a program </br></p>
+<h2 id="lesson3-string">Lesson3: String<a class="headerlink" href="#lesson3-string" title="Permanent link">&para;</a></h2>
+<p>What's String? </p>
+<p>A string can be any text inside double or single quotes
+String indexes are zero-based: The first character is in position 0, the second in 1, and so on.</p>
+<p>Sample: </br>
+    let myName = "Volvo XC60"; </br>
+    Let myname = 'Volvo XC60'; </br></p>
+<p>String Properties</p>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>length</td>
+<td align="left">Returns the length of a string included of blank</td>
+</tr>
+</tbody>
+</table>
+<p>String Methods</p>
+<table>
+<thead>
+<tr>
+<th>Methods</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>split</td>
+<td align="left">Splits a string into an array of substrings</td>
+</tr>
+<tr>
+<td>concat</td>
+<td align="left">Combine two or more strings, and returns a new combined strings</td>
+</tr>
+<tr>
+<td>indexOf</td>
+<td align="left">Returns the position of the first found occurrence of a specified value in a string</td>
+</tr>
+</tbody>
+</table>
+<h3 id="practice_1">Practice<a class="headerlink" href="#practice_1" title="Permanent link">&para;</a></h3>
+<ol>
+<li>create a file with name String.js</li>
+</ol>
+<p><strong> string.length </strong></p>
+<pre><code>// declare a variable 
+    let myString = &quot;This is my string&quot;;
+    let myOtherString = 'This is an another string';
+
+// get the number of characters in your string included of blank
+    let getStringLength;
+    getStringLength=myString.length;
+
+//print
+    console.log(getStringLength); // Result: 17
+</code></pre>
+
+<p><strong> split() </strong></p>
+<pre><code>// declare a variable 
+    let myString = &quot;This is my string&quot;;
+    let myOtherString = 'This is an another string';
+
+// split string 
+    let str_split;
+    str_split=myString.split(' ');
+
+//print
+    console.log(str_split); // Result: [ 'This', 'is', 'my', 'string' ]
+</code></pre>
+
+<pre><code>// declare a variable 
+    let myString = &quot;This is my string&quot;;
+    let myOtherString = 'This is an another string';
+
+// split string 
+    let str_split;
+    str_split=myString.split(' is ');
+
+//print
+    console.log(str_split); // Result: [ 'This', 'my string' ]
+</code></pre>
+
+<p><strong> concat() </strong></p>
+<pre><code>// declare a variable 
+    let str_1 = &quot;Hello &quot;;
+    let str_2 = 'World';
+    let str_3 = '!';
+
+// combine string 
+    let str_combine1, str_combine2;
+    str_combine1=str_1.concat(str_2, '!');
+    str_combine2=str_1.concat(str_2, str_3);
+
+//print
+    console.log(str_combine1); // Result: Hello World!
+    console.log(str_combine2); // Result: Hello World!
+</code></pre>
+
+<p><strong> indexOf() </strong> </br></p>
+<pre><code>let myString = "This is my string";
+let i0 = myString.indexOf("i"); //Find the first occurrence of the letter "i" in a string
+console.log(i0); // Result: 2
+
+let i1 = myString.indexOf("i",3); //Find the first occurrence of the letter "i" in a string, starting the search at position 3:
+console.log(i1); // Result: 5
+</code></pre>
+<p>```</p>
               
             </div>
           </div>
