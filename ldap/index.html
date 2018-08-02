@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Setup LDAP/LDAPS on Windows Server - Hoa's page</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Setup LDAP/LDAPS on Windows Server";
+    var mkdocs_page_input_path = "ldap.md";
+    var mkdocs_page_url = "/ldap/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../github/" class="icon icon-home"> Hoa's page</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../github/">GitHub Guide in basic</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">Setup LDAP/LDAPS on Windows Server</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#concept">Concept</a></li>
+    
+
+    <li class="toctree-l2"><a href="#preparation">Preparation</a></li>
+    
+
+    <li class="toctree-l2"><a href="#window-server-2016">Window server 2016</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#active-directory-domain-services">Active Directory Domain Services</a></li>
+        
+            <li><a class="toctree-l3" href="#setup-ldap-using-ad-lds">Setup LDAP using AD LDS</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../challenge-tcb-2018h2/">Challenge Automation H21028</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../build-kintone-plugin/">Build a kintone plugin (draft)</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../kuES6/">Execute test for kintoneUtiliti by ES6 (2018/08/01)</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../reference/">Reference</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../leadingfromtheinsideout/">LEADING FROM THE INSIDE OUT</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../github/">Hoa's page</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../github/">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Setup LDAP/LDAPS on Windows Server</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <p>Setup LDAP/LDAPS on Windows Server</p>
+<h1 id="concept">Concept<a class="headerlink" href="#concept" title="Permanent link">&para;</a></h1>
+<p>LDAP
+LDAPS
+AD LDS
+LDAP over SSL</p>
+<h1 id="preparation">Preparation<a class="headerlink" href="#preparation" title="Permanent link">&para;</a></h1>
+<p>Create a Window Server 2016</p>
+<h1 id="window-server-2016">Window server 2016<a class="headerlink" href="#window-server-2016" title="Permanent link">&para;</a></h1>
+<h2 id="active-directory-domain-services">Active Directory Domain Services<a class="headerlink" href="#active-directory-domain-services" title="Permanent link">&para;</a></h2>
+<p>how to configure active directory domain services in windows server 2016
+https://blogs.technet.microsoft.com/canitpro/2017/02/22/step-by-step-setting-up-active-directory-in-windows-server-2016/
+https://blogs.technet.microsoft.com/canitpro/2017/02/22/step-by-step-setting-up-active-directory-in-windows-server-2016/</p>
+<h2 id="setup-ldap-using-ad-lds">Setup LDAP using AD LDS<a class="headerlink" href="#setup-ldap-using-ad-lds" title="Permanent link">&para;</a></h2>
+<pre><code>    1. Setup LDAP using AD LDS
+</code></pre>
+<p>https://blogs.msdn.microsoft.com/microsoftrservertigerteam/2017/04/10/step-by-step-guide-to-setup-ldaps-on-windows-server/</p>
+<p>Now we have successfully set up AD LDS Role. Let us create a new AD LDS Instance “CONTOSO” using the wizard. Click the “Run the Active Directory Lightweight Directory Services Setup Wizard” in the above screen. And then Click Close.
+--&gt; must be restart</p>
+<p>Setup LDAPS (LDAP over SSL)</p>
+<p>Active Directory Domain Services</p>
+<p>Thiên về hướng hỗ trợ và trưởng thành của thành viên</p>
+<p>Xin lỗi tôi chưa có nói ý này: "Trước khi vào review checklist thì dĩ nhiên là reviewers đã đọc qua Req/ Spec/ và cả checklist rồi.
+và cũng có chuẩn bị qua những phần cần feedback cho tester rồi."</p>
+<p>Việc giải thích sơ qua để chắc chắn là tester và reviewer đã hiểu đúng req và sau đó cùng chia sẻ qua điểm test.
+Chuyện mà khó nghĩ ra các case khác so với checklist do bạn có nói ra quan điểm test thì chúng tôi chưa có gặp trước giờ và lần này cũng có gì đặc biệt ngoài lệ.</p>
+<p>Bên Việt Nam chúng tôi đang áp dụng phương pháp này để review checklist kiểu này.
+Có hạn chế trong lần này là số tốn thời gian cho việc dịch trong meeting, và vì lần này chúng ta theo quan điểm học hỏi chia sẻ lẫn nhau và 1 phần nữa là thời gian ko có bị gấp lắm nên có thể làm theo cách này. Nếu thời gian gấp thì reviewer sẽ gởi feedback thôi mà ko cần review qua meeting.</p>
+<p>Cảm ơn.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../challenge-tcb-2018h2/" class="btn btn-neutral float-right" title="Challenge Automation H21028">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../github/" class="btn btn-neutral" title="GitHub Guide in basic"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../github/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../challenge-tcb-2018h2/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/require.js"></script>
+      <script src="../search/search.js"></script>
+
+</body>
+</html>
