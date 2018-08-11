@@ -67,21 +67,17 @@
     <a class="current" href="./">Build a kintone plugin (draft)</a>
     <ul class="subnav">
             
-    <li class="toctree-l2"><a href="#objective-this-is-the-document-that-show-guide-step-by-step-to-build-kintone-plug-in">Objective: This is the document that show guide step by step to build kintone plug-in</a></li>
-    
-
-    <li class="toctree-l2"><a href="#requirement">Requirement</a></li>
-    
-
-    <li class="toctree-l2"><a href="#operation">Operation</a></li>
+    <li class="toctree-l2"><a href="#operation-in-detail">Operation in detail</a></li>
     
         <ul>
         
-            <li><a class="toctree-l3" href="#window">Window</a></li>
+            <li><a class="toctree-l3" href="#1-create-files-for-the-kintone-plugin-customization">1. Create files for the kintone plugin customization</a></li>
         
-            <li><a class="toctree-l3" href="#mac">Mac</a></li>
+            <li><a class="toctree-l3" href="#2-create-a-manifest-file">2. Create a manifest file</a></li>
         
-            <li><a class="toctree-l3" href="#linux">Linux</a></li>
+            <li><a class="toctree-l3" href="#3-package-your-files-using-a-packaging-tool">3. Package your files using a packaging tool</a></li>
+        
+            <li><a class="toctree-l3" href="#4-import-the-plugin-into-your-kintone-environment">4. Import the plugin into your kintone environment.</a></li>
         
             <li><a class="toctree-l3" href="#reference">Reference</a></li>
         
@@ -104,6 +100,11 @@
             <li class="toctree-l1">
 		
     <a class="" href="../leadingfromtheinsideout/">LEADING FROM THE INSIDE OUT</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../leadermindset/">LEADER MINDSET (THAY ĐỔI MÔ THỨC LÃNH ĐẠO)</a>
 	    </li>
           
         </ul>
@@ -138,7 +139,8 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="objective-this-is-the-document-that-show-guide-step-by-step-to-build-kintone-plug-in">Objective: This is the document that show guide step by step to build kintone plug-in<a class="headerlink" href="#objective-this-is-the-document-that-show-guide-step-by-step-to-build-kintone-plug-in" title="Permanent link">&para;</a></h1>
+                <pre><code># Objective: This is the document that show guide step by step to build kintone plug-in
+</code></pre>
 <p>Overview</p>
 <pre><code>There are 4 steps to develop a plug-in
 1. Create files for the kintone plugin customization.
@@ -147,17 +149,41 @@
 4. Import the plugin into your kintone environment.
 </code></pre>
 
-<h1 id="requirement">Requirement<a class="headerlink" href="#requirement" title="Permanent link">&para;</a></h1>
-<ol>
-<li>Nodejs</li>
-</ol>
-<p>Window</p>
-<p>Mac</p>
-<p>Linux</p>
-<h1 id="operation">Operation<a class="headerlink" href="#operation" title="Permanent link">&para;</a></h1>
-<h2 id="window">Window<a class="headerlink" href="#window" title="Permanent link">&para;</a></h2>
-<h2 id="mac">Mac<a class="headerlink" href="#mac" title="Permanent link">&para;</a></h2>
-<h2 id="linux">Linux<a class="headerlink" href="#linux" title="Permanent link">&para;</a></h2>
+<h1 id="operation-in-detail">Operation in detail<a class="headerlink" href="#operation-in-detail" title="Permanent link">&para;</a></h1>
+<h2 id="1-create-files-for-the-kintone-plugin-customization">1. Create files for the kintone plugin customization<a class="headerlink" href="#1-create-files-for-the-kintone-plugin-customization" title="Permanent link">&para;</a></h2>
+<p><strong> First, you'll need to get the files ready to be packaged. </strong></p>
+<pre><code>    css/
+    - customize.css //Stylesheet for desktop view
+    - config.css //Stylesheet for Plugin Settings
+
+    html/
+    - config.html //HTML for Plugin Settings
+
+     image/
+    - icon.png //Plugin Icon
+
+    js/
+    - customize.js //App customization for Desktop
+    - mobile-customize.js //App customization for Desktop
+    - config.js //JavaScript initiated on Plugin Settings
+</code></pre>
+<p>You can get (plugin-examples)[https://github.com/kintone/plugin-examples]</p>
+<p><strong> Second, add plugin Icon </strong> </br>
+Plugin icon has name "icon.png"
+ * This file is optional
+ * Use the following file types: png、jpg、gif or bmp
+ * The maximum file size is 512KB</p>
+<p><strong> App customization for Desktop customize.js </strong>
+<strong> Stylesheet for desktop view customize.css </strong>
+<strong> App customization for Desktop mobile-customize.js </strong>
+<strong> HTML for Plugin Settings config.html </strong>
+<strong> JavaScript initiated on Plugin Settings config.js </strong>
+<strong> Stylesheet for Plugin Settings config.css </strong></p>
+<h2 id="2-create-a-manifest-file">2. Create a manifest file<a class="headerlink" href="#2-create-a-manifest-file" title="Permanent link">&para;</a></h2>
+<p>The manifest file format is as below. Specify each parameter in a JSON format.</p>
+<h2 id="3-package-your-files-using-a-packaging-tool">3. Package your files using a packaging tool<a class="headerlink" href="#3-package-your-files-using-a-packaging-tool" title="Permanent link">&para;</a></h2>
+<p>Note: If you're working on a Windows environment, use a tool such as cygwin to run the tool. </p>
+<h2 id="4-import-the-plugin-into-your-kintone-environment">4. Import the plugin into your kintone environment.<a class="headerlink" href="#4-import-the-plugin-into-your-kintone-environment" title="Permanent link">&para;</a></h2>
 <h2 id="reference">Reference<a class="headerlink" href="#reference" title="Permanent link">&para;</a></h2>
 <p>https://developer.kintone.io/hc/en-us/articles/212495078/
 https://sharedoc.atlassian.net/wiki/spaces/SC/pages/202244240/KCD+-+Build+kintone+plug-in</p>
