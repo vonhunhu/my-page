@@ -3,7 +3,7 @@
 
 Hello, 
 
-Welcome to my page. Hope you find the neccessay from here.
+Welcome to my page. Hope you find necessary info.
 <br>Nice to meet you. 
 
 Thank you.
